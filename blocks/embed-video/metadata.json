@@ -1,0 +1,38 @@
+{
+  "variantName": "embed-video",
+  "baseBlock": "embed",
+  "version": "1.0.0",
+  "created": "2026-02-11T21:56:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://www.hftcm.org",
+    "originPage": "nonprofit ministry homepage",
+    "blockPosition": "top"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "wide",
+    "purpose": "video-embed",
+    "imagePattern": "video"
+  },
+  "contentPattern": {
+    "structure": "youtube video embed",
+    "buttonCount": 0,
+    "imageCount": 0
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "pages with YouTube video embeds",
+      "ministry or nonprofit landing pages",
+      "pages featuring promotional videos"
+    ],
+    "notSuitableFor": [
+      "pages with social media embeds only",
+      "pages requiring custom video players"
+    ]
+  },
+  "usage": {
+    "pagesUsing": ["content/index"],
+    "reuseCount": 1,
+    "lastUsed": "2026-02-11T21:56:00.000Z"
+  }
+}

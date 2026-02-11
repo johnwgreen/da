@@ -1,0 +1,39 @@
+{
+  "variantName": "cards-ministry",
+  "baseBlock": "cards",
+  "version": "1.0.0",
+  "created": "2026-02-11T21:56:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://www.hftcm.org",
+    "originPage": "nonprofit ministry homepage",
+    "blockPosition": "bottom"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "wide",
+    "purpose": "ministry-categories",
+    "imagePattern": "large"
+  },
+  "contentPattern": {
+    "structure": "image + heading + description + CTA link",
+    "buttonCount": 1,
+    "imageCount": 1
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "category overview pages with images",
+      "ministry or program listing pages",
+      "feature grid layouts with images and descriptions"
+    ],
+    "notSuitableFor": [
+      "text-only card layouts",
+      "product cards with pricing",
+      "team member profiles"
+    ]
+  },
+  "usage": {
+    "pagesUsing": ["content/index"],
+    "reuseCount": 1,
+    "lastUsed": "2026-02-11T21:56:00.000Z"
+  }
+}

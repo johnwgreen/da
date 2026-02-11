@@ -1,0 +1,36 @@
+{
+  "templates": [
+    {
+      "name": "homepage",
+      "urls": ["https://www.hftcm.org"],
+      "description": "Hope for the Children Ministries homepage with video embed, mission statement, and ministry category cards",
+      "blocks": [
+        {
+          "name": "embed-video",
+          "instances": [".wsb-element-youtube"]
+        },
+        {
+          "name": "cards-ministry",
+          "instances": [".wsb-element-image + .wsb-element-text + .wsb-element-button"]
+        }
+      ]
+    },
+    {
+      "name": "text-content-page",
+      "urls": [
+        "https://www.hftcm.org/mission---vision.html",
+        "https://www.hftcm.org/summer.html",
+        "https://www.hftcm.org/workshops.html",
+        "https://www.hftcm.org/volunteer.html",
+        "https://www.hftcm.org/donate-1.html",
+        "https://www.hftcm.org/next-event.html",
+        "https://www.hftcm.org/teen-talk.html",
+        "https://www.hftcm.org/education.html",
+        "https://www.hftcm.org/ministry-needs.html",
+        "https://www.hftcm.org/activities.html"
+      ],
+      "description": "Text-heavy content page with headings, paragraphs, lists, and optional images. No blocks. Used for about/mission/program info pages.",
+      "blocks": []
+    }
+  ]
+}
